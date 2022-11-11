@@ -1,9 +1,16 @@
 /* Add styling for your page here */
 
 .App {
-
+    display: flex;
+    justify-content: center;
+    width: 80%;
 }
 
-.BakeryItem {
-  
+
+
+.BakeryContainer{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
+

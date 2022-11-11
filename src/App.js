@@ -36,7 +36,7 @@ function App() {
       <div>
         <h2>Cart</h2>
         {cartItems.map((item, index) => (<p> {item.name}</p>))}
-        <h2>Total Price: {price}</h2>
+        <h2>Total Price: {price.toFixed(2)}</h2>
       </div>
     </div>
   );
